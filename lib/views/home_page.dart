@@ -14,6 +14,7 @@ class HomePage extends GetView<HomeScreenController> {
           MapboxMap(
             accessToken: controller.mapBoxToken,
             initialCameraPosition: controller.initialCameraPosition,
+            myLocationEnabled: true,
             doubleClickZoomEnabled: false,
           ),
           SizedBox(

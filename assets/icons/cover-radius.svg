@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="172" height="172" viewBox="0 0 172 172">
+  <g id="cover_radius" data-name="cover radius" transform="translate(-128 -451)">
+    <circle id="Ellipse_931" data-name="Ellipse 931" cx="86" cy="86" r="86" transform="translate(128 451)" fill="#21d59b"/>
+    <circle id="Ellipse_932" data-name="Ellipse 932" cx="6" cy="6" r="6" transform="translate(208 531)" fill="#1a73e8"/>
+    <rect id="Rectangle_19027" data-name="Rectangle 19027" width="84" height="4" transform="translate(214 535)" fill="#1a73e8"/>
+    <text id="Radius" transform="translate(237 530)" fill="#1d1e27" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Radius</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+class AppIcons {
+  static const String helpIcon = 'assets/icons/help-circle.svg';
+  static const String guidanceIcon = 'assets/icons/guidance-circle.svg';
+  static const String homeIcon = 'assets/icons/ages.svg';
+  static const String shareIcon = 'assets/icons/share.svg';
+  static const String settingIcon = 'assets/icons/settings.svg';
+  static const String searchIcon = 'assets/icons/search.svg';
+  static const String safetyPlanLocationIcon = 'assets/icons/location_round_black.svg';
+  static const String safetyPlanCoverRadiusIcon = 'assets/icons/safety_cover_round_black.svg';
+  static const String safetyPlanPersonAtLocationIcon = 'assets/icons/safety_plan_person_location.svg';
+  static const String safetyPlanTimerIcon = 'assets/icons/safety_plan_timer.svg';
+  static const String safetyPlanContactNotifyIcon = 'assets/icons/safety_plan_contact_notify.svg';
+  static const String accountSetting = 'assets/icons/account_setting_icon.png';
+  static const String groupContactSetting = 'assets/icons/group_setting_icon.png';
+  static const String notificationSetting = 'assets/icons/notification_setting_icon.png';
+  static const String locationAccuracySetting = 'assets/icons/location_accuracy_setting_icon.png';
+  static const String helpSetting = 'assets/icons/help_setting_icon.png';
+  static const String contactSetting = 'assets/icons/contact_setting_icon.png';
+  static const String termSetting = 'assets/icons/terms_setting_icon.png';
+  static const String privacySetting = 'assets/icons/privacy_setting_icon.png';
+  static const String eyePassword = 'assets/icons/eye_password.svg';
+  static const String addMore = 'assets/icons/add_more.svg';
+  static const String moreVertical = 'assets/icons/more_vertical.svg';
+  static const String checkMarkAccept = 'assets/icons/check_mark_accept_icon.svg';
+  static const String alertIcon = 'assets/icons/alert.svg';
+  static const String arrowDown = 'assets/icons/arrow_down.svg';
+  static const String editIcon = 'assets/icons/edit.svg';
+  static const String editWhiteIcon = 'assets/icons/edit_white.svg';
+  static const String mappinIcon = 'assets/icons/map-pin.svg';
+  static const String check = 'assets/icons/check.svg';
+  static const String destinationPin2 = 'assets/icons/destination-pin.png';
+  static const String userPin = 'assets/icons/userpin.png';
+  static const String plus = 'assets/icons/plus.svg';
+  static const String iconEdit = 'assets/icons/icon_edit.svg';
+  static const String iconEye = 'assets/icons/eye_icon.svg';
+  static const String arrowRight = 'assets/icons/arrow_right.svg';
+  static const String arrowleft = 'assets/icons/arrow_left.svg';
+  static const String eyeOffIcon = 'assets/icons/eye_off_icon.svg';
+  static const String close = 'assets/icons/close.svg';
+  static const String addGroup = 'assets/icons/add_group.svg';
+  static const String favourite = 'assets/icons/favorite_black_back.svg';
+  static const String clock = 'assets/icons/clock.svg';
+  static const String setLocation = 'assets/icons/set_location_black_back.svg';
+  static const String layerIcon = 'assets/icons/layers.svg';
+  static const String coverRadiusIcon = 'assets/icons/cover-radius.svg';
+  static const String blackCheckMarkIcon = 'assets/icons/black_check_mark.svg';
+  static const String cancelPlanIcon = 'assets/icons/cancel_plan.svg';
+  static const String viewDetailsIcon = 'assets/icons/view_details.svg';
+  static const String editBlackIcon = 'assets/icons/edit_black.svg';
+  static const String alertIconPng = 'assets/icons/red_alert.png';
+
+  //Audio Path
+  static const String warningAlarm = 'audio/iphone_radar_alarm.mp3';
+}

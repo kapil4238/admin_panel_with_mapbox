@@ -1,0 +1,7 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <circle id="Ellipse_913"  cx="12.5" cy="12.5" r="12.5" fill="#1d1e27"/>
+  <g id="user" transform="translate(2 3.211)">
+    <path id="Path_11340" d="M15.341,26V24.835A2.335,2.335,0,0,0,13.006,22.5H8.335A2.335,2.335,0,0,0,6,24.835V26" transform="translate(0 -10.994)" fill="none" stroke="#f5f6fa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_11341" d="M16.671,6.835A2.335,2.335,0,1,1,14.335,4.5,2.335,2.335,0,0,1,16.671,6.835Z" transform="translate(-3.665 -0.711)" fill="none" stroke="#f5f6fa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

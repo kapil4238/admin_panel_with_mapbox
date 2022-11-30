@@ -1,0 +1,8 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <circle id="Ellipse_913" data-name="Ellipse 913" cx="12.5" cy="12.5" r="12.5" fill="#1d1e27"/>
+  <g id="stopwatch" transform="translate(2.409 3.81)">
+    <path id="Path_11342" data-name="Path 11342" d="M16.313,16.279h1.434v-3.9H16.313Z" transform="translate(-6.793 -4.096)" fill="#f5f6fa" stroke="#f5f6fa" stroke-width="0.75"/>
+    <path id="Path_11343" data-name="Path 11343" d="M14.769,8.969l.92-.92L14.675,7.035l-.92.92a5.737,5.737,0,1,0,1.014,1.014Zm-1.363,6.687a4.482,4.482,0,1,1,1.313-3.169A4.453,4.453,0,0,1,13.406,15.656Z" transform="translate(0 -2.588)" fill="#f5f6fa" stroke="#f5f6fa" stroke-width="0.75"/>
+    <path id="Path_11344" data-name="Path 11344" d="M13.5,2.25h3.825V3.684H13.5Z" transform="translate(-5.175)" fill="#f5f6fa" stroke="#f5f6fa" stroke-width="0.75"/>
+  </g>
+</svg>

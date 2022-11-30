@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <g id="compass" transform="translate(-2.5 -2.5)">
+    <path id="Path_11378" d="M19,11a8,8,0,1,1-8-8A8,8,0,0,1,19,11Z" fill="none" stroke="#080808" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_11379" d="M18.814,11.64,17.02,17.02l-5.38,1.793,1.793-5.38Z" transform="translate(-4.227 -4.227)" fill="none" stroke="#080808" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

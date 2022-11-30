@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="more-vertical" transform="translate(3.1 -6)" opacity="0.7">
+    <rect id="Rectangle_19009" data-name="Rectangle 19009" width="24" height="24" transform="translate(-3.1 6)" fill="rgba(255,255,255,0)"/>
+    <path id="Path_11358" data-name="Path 11358" d="M21.5,8.5A2.5,2.5,0,1,1,19,6,2.5,2.5,0,0,1,21.5,8.5Z" transform="translate(-9.6 2)" fill="#1d1e27"/>
+    <path id="Path_11357" data-name="Path 11357" d="M21.5,19A2.5,2.5,0,1,1,19,16.5,2.5,2.5,0,0,1,21.5,19Z" transform="translate(-9.6 -0.5)" fill="#1d1e27"/>
+    <path id="Path_11359" data-name="Path 11359" d="M21.5,29.5A2.5,2.5,0,1,1,19,27,2.5,2.5,0,0,1,21.5,29.5Z" transform="translate(-9.6 -3)" fill="#1d1e27"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.716" height="28.116" viewBox="0 0 28.716 28.116">
+  <g id="guidance" transform="translate(-2 -3.5)">
+    <path id="Path_11514" data-name="Path 11514" d="M3,4.5H9.095a4.063,4.063,0,0,1,4.063,4.063V22.785a3.047,3.047,0,0,0-3.047-3.047H3Z" fill="none" stroke="#1d1e27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_11512" data-name="Path 11512" d="M18,12v4.279" transform="translate(3.158 5.314)" fill="none" stroke="#1d1e27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_11513" data-name="Path 11513" d="M18,24h0" transform="translate(3.158 1.481)" fill="none" stroke="#1d1e27" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_11516" data-name="Path 11516" d="M20.116,11.558A8.558,8.558,0,1,1,11.558,3,8.558,8.558,0,0,1,20.116,11.558Z" transform="translate(9.6 10.5)" fill="none" stroke="#1d1e27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M-7553.84-4746h0v-10.439a4.067,4.067,0,0,1,4.063-4.065h6.1v9.277a8.575,8.575,0,0,0-2.16-.275,8.607,8.607,0,0,0-8,5.5Z" transform="translate(7567.01 4765.004)" fill="none" stroke="#1d1e27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

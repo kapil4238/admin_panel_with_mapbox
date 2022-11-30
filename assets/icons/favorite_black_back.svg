@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="icon" transform="translate(-20 -284)">
+    <circle id="Ellipse_913" data-name="Ellipse 913" cx="12.5" cy="12.5" r="12.5" transform="translate(20 284)" fill="#1d1e27"/>
+    <g id="favourites" transform="translate(-306.647 191.5)">
+      <path id="Icon_feather-star" data-name="Icon feather-star" d="M8.582,3l1.725,3.495,3.857.564L11.374,9.777l.659,3.841L8.582,11.8l-3.45,1.814.659-3.841L3,7.058l3.857-.564Z" transform="translate(330.647 96.5)" fill="none" stroke="#f5f6fa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

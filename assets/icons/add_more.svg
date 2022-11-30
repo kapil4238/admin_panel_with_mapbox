@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="18" viewBox="0 0 46 18">
+  <g id="add_more" data-name="add more" transform="translate(-261 -104)">
+    <text id="Add" transform="translate(281 118)" fill="#1d1e27" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Add</tspan></text>
+    <g id="user_plus" data-name="user plus" transform="translate(260.5 103.591)">
+      <path id="Path_11345" data-name="Path 11345" d="M9.682,25.773V24.682A2.182,2.182,0,0,0,7.5,22.5H3.682A2.182,2.182,0,0,0,1.5,24.682v1.091" transform="translate(0 -11.455)" fill="none" stroke="#1d1e27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_11346" data-name="Path 11346" d="M11.114,6.682A2.182,2.182,0,1,1,8.932,4.5,2.182,2.182,0,0,1,11.114,6.682Z" transform="translate(-3.341)" fill="none" stroke="#1d1e27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_11347" data-name="Path 11347" d="M30,12v3.273" transform="translate(-18.137 -4.773)" fill="none" stroke="#1d1e27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_11348" data-name="Path 11348" d="M28.773,16.5H25.5" transform="translate(-15.273 -7.636)" fill="none" stroke="#1d1e27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
