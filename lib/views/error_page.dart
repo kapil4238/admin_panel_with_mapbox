@@ -28,7 +28,7 @@ class ErrorPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               //  Align(alignment: Alignment.topLeft, child: BackButtonWidget()),
-              SizedBox(
+              const SizedBox(
                 height: 100,
               ),
               Expanded(
@@ -45,7 +45,7 @@ class ErrorPage extends StatelessWidget {
                 style: AppTextStyle.montserratBold
                     .copyWith( fontSize: getFontSize(context: context, fontSize: 24),),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Text(
@@ -55,7 +55,7 @@ class ErrorPage extends StatelessWidget {
                 ),
                 textAlign: TextAlign.center,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               SizedBox(
@@ -71,7 +71,7 @@ class ErrorPage extends StatelessWidget {
                     fontSize: getFontSize(context: context, fontSize: 18),
                     borderRadius: 10),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               )
             ],

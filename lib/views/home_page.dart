@@ -3,12 +3,110 @@ import 'package:flutter/material.dart';
 import 'package:get/state_manager.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
 
+import '../app/app_colors.dart';
+import '../app/app_images.dart';
+import '../app/app_text_style.dart';
+import '../common_widgets/common_widgets.dart';
+import '../services/utility_service.dart';
+
 class HomePage extends GetView<HomeScreenController> {
   const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.backgroundColor,
+      appBar: AppBar(
+        backgroundColor: AppColors.blackColor,
+        actions: <Widget>[
+          CommonWidgets.iconWidget(
+            imagePath: AppImage.iconLogo,
+            imageHeight: 70,
+            imageWidth: 50,
+          ),
+        ],
+        title: Row(),
+      ),
+      drawer: Drawer(
+        backgroundColor: AppColors.blackColor,
+        elevation: 20,
+        child: ListView(
+          padding: const EdgeInsets.all(0),
+          children: [
+            //DrawerHeader
+            ListTile(
+              leading: const Icon(
+                Icons.person,
+                color: AppColors.backgroundColor,
+              ),
+              title: Text(
+                "Account",
+                style: AppTextStyle.openSansRegular.copyWith(
+                  color: AppColors.whiteTextColor,
+                  fontSize: getFontSize(context: context, fontSize: 16),
+                ),
+              ),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(
+                Icons.location_on,
+                color: AppColors.backgroundColor,
+              ),
+              title:Text(
+                "Risk Area",
+                style: AppTextStyle.openSansRegular.copyWith(
+                  color: AppColors.whiteTextColor,
+                  fontSize: getFontSize(context: context, fontSize: 16),
+                ),
+              ),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(
+                Icons.workspace_premium,
+                color: AppColors.backgroundColor,
+              ),
+              title: Text(
+                "Current plan",
+                style: AppTextStyle.openSansRegular.copyWith(
+                  color: AppColors.whiteTextColor,
+                  fontSize: getFontSize(context: context, fontSize: 16),
+                ),
+              ),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(
+                Icons.settings,
+                color: AppColors.backgroundColor,
+              ),
+              title: Text(
+                "Settings",
+                style: AppTextStyle.openSansRegular.copyWith(
+                  color: AppColors.whiteTextColor,
+                  fontSize: getFontSize(context: context, fontSize: 16),
+                ),
+              ),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(
+                Icons.logout,
+                color: AppColors.backgroundColor,
+              ),
+              title: Text(
+                "Log-out",
+                style: AppTextStyle.openSansRegular.copyWith(
+                  color: AppColors.whiteTextColor,
+                  fontSize: getFontSize(context: context, fontSize: 16),
+                ),
+              ),
+              onTap: () {},
+            ),
+          ],
+        ),
+      ),
       body: Stack(
         children: [
           MapboxMap(
@@ -17,74 +115,8 @@ class HomePage extends GetView<HomeScreenController> {
             myLocationEnabled: true,
             doubleClickZoomEnabled: false,
           ),
-          SizedBox(
-            child: Flow(
-              delegate: FlowMenuDelegate(menuAnimation: controller.menuAnimation),
-              children: controller.menuItems
-                  .map<Widget>((IconData icon) =>
-                  RowIcons(
-                    iconData: icon,
-                  ))
-                  .toList(),
-            ),
-          ),
         ],
       ),
     );
-  }
-}
-
-class RowIcons extends GetView<HomeScreenController> {
-  IconData iconData;
-
-  RowIcons({
-    required this.iconData,
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Obx(() {
-      return RawMaterialButton(
-        fillColor: controller.lastTapped.value == iconData ? Colors.purple : Colors.black,
-        splashColor: Colors.amber[100],
-        shape: const CircleBorder(),
-        onPressed: () {
-          controller.updateMenu(iconData);
-        },
-        child: Icon(
-          iconData,
-          color: Colors.white,
-          size: 20.0,
-        ),
-      );
-    });
-  }
-}
-
-class FlowMenuDelegate extends FlowDelegate {
-  FlowMenuDelegate({required this.menuAnimation}) : super(repaint: menuAnimation);
-
-  final Animation<double> menuAnimation;
-
-  @override
-  bool shouldRepaint(FlowMenuDelegate oldDelegate) {
-    return menuAnimation != oldDelegate.menuAnimation;
-  }
-
-  @override
-  void paintChildren(FlowPaintingContext context) {
-    double dx = 0.0;
-    for (int i = context.childCount-1; i >=0; i--) {
-      dx = context.getChildSize(i)!.width * i;
-      context.paintChild(
-        i,
-        transform: Matrix4.translationValues(
-          dx * menuAnimation.value,
-          0,
-          0,
-        ),
-      );
-    }
   }
 }

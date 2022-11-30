@@ -1,5 +1,6 @@
 import 'package:aegis247_admin_panel/controllers/home_screen_controller.dart';
 import 'package:aegis247_admin_panel/controllers/auth_controller.dart';
+import 'package:aegis247_admin_panel/services/middleware_service.dart';
 import 'package:aegis247_admin_panel/views/error_page.dart';
 import 'package:aegis247_admin_panel/views/home_page.dart';
 import 'package:aegis247_admin_panel/views/auth_screen.dart';
@@ -24,6 +25,7 @@ class AppPages {
       page: () => const LoginScreen(),
       bindings: [SplashBinding()],
       preventDuplicates: true,
+      middlewares: [EnsureAuthMiddleware()],
       unknownRoute: GetPage(
         name: Routes.error,
         page: () => const ErrorPage(),
@@ -35,6 +37,7 @@ class AppPages {
       bindings: [HomeBinding()],
       preventDuplicates: true,
       maintainState: true,
+      middlewares: [EnsureAuthMiddleware()],
       unknownRoute: GetPage(
         name: Routes.error,
         page: () => const ErrorPage(),

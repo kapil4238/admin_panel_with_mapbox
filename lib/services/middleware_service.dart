@@ -6,10 +6,6 @@ import 'auth_service.dart';
 class EnsureAuthMiddleware extends GetMiddleware {
   @override
   Future<GetNavConfig?> redirectDelegate(GetNavConfig route) async {
-    // you can do whatever you want here
-    // but it's preferable to make this method fast
-    // await Future.delayed(Duration(milliseconds: 500));
-
     if (!AuthService.to.isLoggedInValue) {
       final newRoute = Routes.LOGIN_THEN(route.currentPage!.name);
       return GetNavConfig.fromRoute(newRoute);

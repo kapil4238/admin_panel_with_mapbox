@@ -1,8 +1,10 @@
 import 'dart:async';
 
 import 'package:aegis247_admin_panel/app/app_router.dart';
+import 'package:aegis247_admin_panel/controllers/auth_controller.dart';
 import 'package:aegis247_admin_panel/controllers/home_screen_controller.dart';
 import 'package:aegis247_admin_panel/res/strings/str_de.dart';
+import 'package:aegis247_admin_panel/services/utility_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
@@ -17,8 +19,7 @@ Future<void> main() async {
   runZonedGuarded(() {
     runApp(const AegisAdminPanel());
   }, (error, stackTrace) {
-    print('runZonedGuarded: Caught error in my root zone.$error');
-    navigateTo(Routes.error);
+    DebugPrints.log('runZonedGuarded: Caught error in my root zone.$error');
   });
 }
 
@@ -34,7 +35,7 @@ class _AegisAdminPanelState extends State<AegisAdminPanel> {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       builder: (context, widget) => ResponsiveWrapper.builder(
-        ClampingScrollWrapper.builder(context, widget!),
+        BouncingScrollWrapper.builder(context, widget!),
         maxWidth: 1700,
         minWidth: 450,
         defaultScale: true,
@@ -48,7 +49,7 @@ class _AegisAdminPanelState extends State<AegisAdminPanel> {
       showSemanticsDebugger: false,
       debugShowCheckedModeBanner: false,
       initialRoute: AppPages.initial,
-      initialBinding: HomeBinding(),
+      initialBinding: SplashBinding(),
       getPages: AppPages.routes,
       translations: StringUtils(),
       locale: const Locale('en', 'US'),
