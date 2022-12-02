@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:aegis247_admin_panel/app/app_router.dart';
 import 'package:aegis247_admin_panel/controllers/auth_controller.dart';
-import 'package:aegis247_admin_panel/controllers/home_screen_controller.dart';
 import 'package:aegis247_admin_panel/res/strings/str_de.dart';
 import 'package:aegis247_admin_panel/services/utility_service.dart';
 import 'package:flutter/material.dart';
@@ -10,8 +9,6 @@ import 'package:get/get.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:responsive_framework/utils/scroll_behavior.dart';
-
-import 'app/app_pages.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
